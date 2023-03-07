@@ -1,24 +1,57 @@
-.save-the-date img {
-  height: 300px;
+.section img {
+  object-fit: cover;
+  /* width: 40%; */
+  max-height: 500px;
+  padding: 30px;
 }
 
-.save-the-date {
+.section {
   display: flex;
 }
 
+.section p {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+}
+
+.block-content {
+  text-align: center;
+  margin: auto;
+}
+
+.block-left {
+  width: 50vw;
+}
+
+.block-right {
+  width: 50vw;
+}
+
 .divider {
-  height: 100px;
+  border-bottom: solid black 1px;
+  text-align: center;
+  margin: 30px;
 }
 
 .divider h2 {
   color: black;
+  font-family: 'Cormorant Garamond', serif;
+font-size: 2.3rem;
 }
 
-
-.Accomodation {
+.button-container {
   display: flex;
 }
 
-.Accomodation img {
-  height: 300px;
+#rsvp-btn {
+  padding: 20px;
+  font-size: 1.7rem;
+  margin: 30px auto;
+  font-family: 'Montserrat', sans-serif;
+
 }

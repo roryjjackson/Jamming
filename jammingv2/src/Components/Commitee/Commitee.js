@@ -23,15 +23,17 @@ class Committee extends React.Component {
                     {name: "Nick Thrasher", img: "url(https://res.cloudinary.com/dfipoufmj/image/upload/v1668424478/WhatsApp_Image_2022-11-12_at_7.51.05_PM_naqhvz.jpg)"} ];
 
     return (
-      <div className="grid">
-          {  members.map(member => {
-              return (
-                <div className="avatars" style={{ backgroundImage: `${member.img}` }}>
-                  <p>{member.name}</p>
-                </div>
-              )
-            })
-          }
+      <div className="grid-container">
+        <div className="grid">
+            {  members.map(member => {
+                return (
+                  <div className="avatars" style={{ backgroundImage: `${member.img}` }}>
+                    <p>{member.name}</p>
+                  </div>
+                )
+              })
+            }
+        </div>
       </div>
     )
   }

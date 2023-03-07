@@ -1,5 +1,5 @@
 .header-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.355)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1666014186/Zoe%20and%20Cameron/DSC02457_lh58zy.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.255)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1666014186/Zoe%20and%20Cameron/DSC02457_lh58zy.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -10,8 +10,14 @@
   padding: 0 30px;
 }
 
+.header-content {
+  text-align: center;
+  padding: 50px 0;
+}
+
 h2 {
   color: white;
+  /* font-size: 1rem !important ; */
 }
 
 p {

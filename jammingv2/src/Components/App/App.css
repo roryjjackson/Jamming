@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;700&family=Karma&family=Montserrat:wght@400;800;900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -51,18 +53,22 @@ h1 {
   padding: .77rem 0;
   /* background-color: #010c3f; */
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.88rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
   color: #fff;
+  font-weight: 500;
+
 }
 
-h1 .highlight {
-  /* color: #6c41ec; */
-}
+/* h1 .highlight {
+
+} */
 
 h2 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.55rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: .8;
 }
 
 .App {
@@ -77,6 +83,10 @@ h2 {
   color: #fff;
 }
 
+p {
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .App-playlist {
   display: flex;
   justify-content: space-between;
@@ -88,4 +98,10 @@ h2 {
     align-items: center;
     flex-direction: column;
   }
+}
+
+.button {
+  border: solid rgba(0, 0, 0, 0.2) 1px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
 }

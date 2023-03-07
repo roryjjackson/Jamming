@@ -1,8 +1,21 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 20px;
   justify-content: center;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
 }
 
 .avatars {

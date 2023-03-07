@@ -13,8 +13,8 @@ class Header extends React.Component {
         </div>
         <div className="header-content">
           <h1>Zoe and Cameron</h1>
-          <p>Nov 23rd 2023</p>
-          <button className="button">RSVP</button>
+          <h2>November 25th 2023</h2>
+          {/* <button className="button">RSVP</button> */}
         </div>
       </div>
     )
