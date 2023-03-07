@@ -1,0 +1,27 @@
+.header-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.355)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1666014186/Zoe%20and%20Cameron/DSC02457_lh58zy.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: auto;
+  display: flex;
+  padding: 10px;
+}

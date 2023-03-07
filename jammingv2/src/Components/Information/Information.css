@@ -1,0 +1,24 @@
+.save-the-date img {
+  height: 300px;
+}
+
+.save-the-date {
+  display: flex;
+}
+
+.divider {
+  height: 100px;
+}
+
+.divider h2 {
+  color: black;
+}
+
+
+.Accomodation {
+  display: flex;
+}
+
+.Accomodation img {
+  height: 300px;
+}
