@@ -10,6 +10,6 @@ function Popup(props) {
       </div>
     </div>
   ) : "";
-}
+};
 
-export default Popup
+export default Popup;
