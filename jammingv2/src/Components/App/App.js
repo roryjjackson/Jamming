@@ -3,7 +3,6 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import PlayList from '../PlayList/PlayList';
-// import TrackList from '../TrackList/TrackList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';

@@ -20,20 +20,34 @@
 
 .avatars {
   width: 200px;
+  height: 180px;
   transition: 0.5s;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   background-position: center;
   background-size: cover;
-
+  margin: auto;
+  text-align: center;
+  /* padding-top: 30px; */
 }
 
 .avatars p {
   opacity: 0;
   transform: scale(0);
   transition: .6s;
-  font-size: 2rem;
+  font-size: .7rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.avatars h5 {
+  font-family: 'Cormorant Garamond', serif;
+  opacity: 0;
+  transform: scale(0);
+  transition: .6s;
+  font-size: 1.4rem;
   color: white;
 }
 
@@ -42,6 +56,11 @@
 }
 
 .avatars:hover p {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.avatars:hover h5 {
   opacity: 1;
   transform: scale(1);
 }
