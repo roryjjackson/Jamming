@@ -11,7 +11,7 @@
 
 .section p {
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .section h3 {
@@ -49,13 +49,30 @@
   font-size: 2.3rem;
 }
 
-.button-container {
-  display: flex;
+.rsvp {
+  background-color: rgb(143, 94, 9);
+  height: 200px;
 }
 
-#rsvp-btn {
-  padding: 20px;
-  font-size: 1.7rem;
-  margin: 30px auto;
-  font-family: 'Montserrat', sans-serif;
+.schedule-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.schedule  h2 {
+  font-size: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule h5 {
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule p {
+  color: rgba(5, 5, 5, 0.676);
+  margin: 0;
 }

@@ -1,0 +1,29 @@
+.form-control {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 5px 0 ;
+  border: solid rgba(0, 0, 0, 0.264) 1px;
+}
+
+.form-label {
+  margin: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.mb-3 h2 {
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.container h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
