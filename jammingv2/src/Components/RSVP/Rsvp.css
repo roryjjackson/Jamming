@@ -1,0 +1,21 @@
+.mb-3 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.form-label h2 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.rsvp-container {
+  max-width: 80%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .rsvp-container {
+    max-width: 50%;
+  }
+}

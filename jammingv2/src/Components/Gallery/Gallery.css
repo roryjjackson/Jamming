@@ -1,0 +1,18 @@
+.Gallery {
+  height: 500px;
+  margin: 0 50px;
+  /* width: 80%; */
+  justify-content: center;
+
+}
+
+.Gallery img {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1420px) {
+  /* .carousel-item {
+    height: 400px;
+  } */
+}

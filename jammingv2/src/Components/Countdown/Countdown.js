@@ -1,13 +1,34 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// // import Countdown from 'react-countdown';
+import React from 'react';
+import { useState, useEffect } from 'react';
 
-// class Countdown extends React.Component {
+const Timer = () => {
+  const [days, setDays] = useState(0);
+  const [hours, setHours] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(0);
 
-//   ReactDOM.render(
-//     <Countdown date={Date.now() + 10000} />,
-//     document.getElementById('root')
-//   );
-// }
+  const deadline = "November, 25, 2023";
 
-// export default Countdown;
+  const getTime = () => {
+    const time = Date.parse(deadline) - Date.now();
+
+    setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
+    setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
+    setMinutes(Math.floor((time / 1000 / 60) % 60));
+    setSeconds(Math.floor((time / 1000) % 60));
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => getTime(deadline), 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="timer">
+      <h2>Only {days} days, {minutes} minutes, {hours} hours and {seconds} seconds to go!</h2>
+    </div>
+  );
+};
+
+export default Timer;

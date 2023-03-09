@@ -7,6 +7,7 @@ import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
 // import emailjs from 'emailjs-com';
+import Rsvp from '../RSVP/Rsvp';
 
 class App extends React.Component {
   constructor(props) {
@@ -121,8 +122,14 @@ class App extends React.Component {
           <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1666015814/DSC02503_tlgzxu.jpg" alt="" className="block-left"></img>
         </div>
 
+        <div className="divider">
+          <h2>RSVP</h2>
+        </div>
+
+        < Rsvp />
+
         <div className="footer">
-          <p>Built by B.O.B</p>
+          <p>25/11/23 | Remember the date x</p>
         </div>
 
       </div>
