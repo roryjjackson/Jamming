@@ -1,0 +1,22 @@
+header img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  top: 100px;
+  left: 100px;
+  position: relative;
+  filter: brightness(90%);
+}
+
+.header-container {
+  position: relative;
+}
+
+header p {
+  color: black;
+  position: absolute;
+  top: 200px;
+  font-size: 2rem;
+  max-width: 500px;
+  margin: 20px;
+}

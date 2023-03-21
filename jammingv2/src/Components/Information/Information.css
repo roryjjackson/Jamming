@@ -1,6 +1,5 @@
 .section img {
   object-fit: cover;
-  /* width: 40%; */
   max-height: 500px;
   padding: 30px;
 }
@@ -11,7 +10,7 @@
 
 .section p {
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .section h3 {
@@ -29,6 +28,15 @@
   padding: 20px;
 }
 
+.block-content p {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.block-content a {
+  width: 30%;
+}
+
 .block-left {
   width: 50vw;
 }
@@ -38,8 +46,9 @@
 }
 
 .divider {
-  border-bottom: solid black 1px;
+  border-bottom: solid rgba(0, 0, 0, 0.32) 1px;
   text-align: center;
+  padding: 25px;
   margin: 30px;
 }
 
@@ -49,13 +58,25 @@
   font-size: 2.3rem;
 }
 
-.button-container {
+.schedule-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#rsvp-btn {
-  padding: 20px;
-  font-size: 1.7rem;
-  margin: 30px auto;
-  font-family: 'Montserrat', sans-serif;
+.schedule  h2 {
+  font-size: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule h5 {
+  font-family: 'Cormorant Garamond', serif;
+  color: rgba(5, 5, 5, 0.876);
+}
+
+.schedule p {
+  color: rgba(5, 5, 5, 0.676);
+  margin: 0;
 }

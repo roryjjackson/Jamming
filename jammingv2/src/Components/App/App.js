@@ -6,7 +6,8 @@ import PlayList from '../PlayList/PlayList';
 import Spotify from '../../util/Spotify';
 import Header from '../Header/Header';
 import Information from '../Information/Information';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
+import Rsvp from '../RSVP/Rsvp';
 
 class App extends React.Component {
   constructor(props) {
@@ -83,6 +84,54 @@ class App extends React.Component {
 
           </div>
         </div>
+        <div className="divider">
+          <h2>The plan on the day</h2>
+        </div>
+
+        <div className="section">
+          <div className="schedule-container">
+            <div className="schedule block-right">
+              <h3>Schedule</h3>
+              <div className="schedule-list">
+                <div className="schedule-event">
+                  <p>1:30pm | Arrival of guests 👋🏼</p>
+                </div>
+                <p>~</p>
+                <div className="schedule-event">
+                  <p>2:00pm | Ceremony 🕊</p>
+                </div>
+                <p>~</p>
+                <div className="schedule-event">
+                  <p>2:30pm | Canapés 🫒</p>
+                </div>
+                <p>~</p>
+                <div className="schedule-event">
+                  <p>4:00pm | Wedding breakfast 🐷</p>
+                </div>
+                <p>~</p>
+                <div className="schedule-event">
+                  <p>7:00pm | Evening guests arrival 🥳</p>
+                </div>
+                <p>~</p>
+                <div className="schedule-event">
+                  <p>12:00am | Carriages 💤</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1666015814/DSC02503_tlgzxu.jpg" alt="" className="block-left"></img>
+        </div>
+
+        <div className="divider">
+          <h2>RSVP</h2>
+        </div>
+
+        < Rsvp />
+
+        <div className="footer">
+          <p>25/11/23 | Remember the date x</p>
+        </div>
+
       </div>
     );
 
