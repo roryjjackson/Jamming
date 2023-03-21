@@ -1,0 +1,10 @@
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100px;
+}
+
+.project img {
+  height: 200px;
+}
